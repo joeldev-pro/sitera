@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Passeio em Ambiente 3D</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-entity gltf-model="ASSETS\CASA.glb"></a-entity>
+        
+        <a-entity camera wasd-controls look-controls position="0 1.6 0"></a-entity>
+        
+        <a-light type="ambient" color="#FFF"></a-light>
+        <a-light type="point" intensity="1" position="0 2 0"></a-light>
+    </a-scene>
+</body>
+</html>
